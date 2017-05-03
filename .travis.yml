@@ -5,7 +5,7 @@ compiler: clang
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y cmake
-  - sudo apt-cache search libboost
+  - sudo apt-cache search clang
   - sudo apt-get install -y clang-4.0
   - clang++ --version
   - sudo apt-get install -y libboost1.48-dev
